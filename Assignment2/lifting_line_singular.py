@@ -129,7 +129,6 @@ class blade:
         self.mu_vec = mu_vec
         self.chord_vec = chord_vec
         self.twist_vec = twist_vec
-        print(mu_dist)
         self.c_dist = self.calc_chord(mu_dist)
         self.c_cent = self.calc_chord(mu_cent)
         
