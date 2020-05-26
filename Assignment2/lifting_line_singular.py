@@ -372,7 +372,6 @@ class lifting_line_model_singular:
         self.blades = []
         for i in range(self.N_blades):
             if self.print_progress:
-                print('mu_dist', mu_dist)
                 print('Constructing blade number {}'.format(i))
                 
             self.blades.append(blade(self.R,mu_dist,mu_cp,self.mu_vec,self.chord_vec,self.twist_vec,xi_blades[i],self.U_wake,self.N_wake_sec,dt, self.Omega))
