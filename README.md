@@ -1,1 +1,0 @@
-# rotor_wake_aerodynamics
